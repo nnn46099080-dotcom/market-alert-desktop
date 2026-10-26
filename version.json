@@ -1,0 +1,11 @@
+{
+  "app_name": "qld_desktop_app",
+  "APP_VARIANT": "desktop_all",
+  "entryTarget": "desktop/main.cjs",
+  "version": "1.0.0",
+  "buildNumber": 1,
+  "installer": "QLD-1.0.0+1-PC-Setup.exe",
+  "sha256": "a32a80e06bcd599f80eae0ff32da1883d730e2edaf6f40470a12c9f80167ebde",
+  "repository": "https://github.com/nnn46099080-dotcom/market-alert-desktop",
+  "publishedInstaller": true
+}
