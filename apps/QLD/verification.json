@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "symbol": "QLD",
+  "window": [
+    440,
+    672
+  ],
+  "compact": [
+    400,
+    700
+  ],
+  "zoom": 0.85,
+  "isolatedApps": [
+    "QLD"
+  ],
+  "url": "https://qld-a-m.web.app/?pc=1",
+  "liveFlutter": true
+}

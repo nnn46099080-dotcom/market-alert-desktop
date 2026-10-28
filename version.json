@@ -1,11 +1,42 @@
 {
-  "app_name": "qld_desktop_app",
-  "APP_VARIANT": "desktop_all",
-  "entryTarget": "desktop/main.cjs",
-  "version": "1.0.0",
-  "buildNumber": 1,
-  "installer": "QLD-1.0.0+1-PC-Setup.exe",
-  "sha256": "a32a80e06bcd599f80eae0ff32da1883d730e2edaf6f40470a12c9f80167ebde",
-  "repository": "https://github.com/nnn46099080-dotcom/market-alert-desktop",
-  "publishedInstaller": true
+  "version": "1.2.0",
+  "buildNumber": 5,
+  "apps": [
+    {
+      "symbol": "QLD",
+      "version": "1.2.0",
+      "buildNumber": 5,
+      "installer": "QLD-1.2.0+5-PC-Setup.exe",
+      "bytes": 121274039,
+      "sha256": "a69a732b33a7e85b783e094971eda24c5a04d9d55f1ea292533b0e736b30b0d0",
+      "download": "https://github.com/nnn46099080-dotcom/market-alert-desktop/releases/download/pc-v1.2.0/QLD-1.2.0%2B5-PC-Setup.exe"
+    },
+    {
+      "symbol": "TQQQ",
+      "version": "1.2.0",
+      "buildNumber": 5,
+      "installer": "TQQQ-1.2.0+5-PC-Setup.exe",
+      "bytes": 121274121,
+      "sha256": "799fdf12e572b74ff03c17722eeaaf5a46d0f55918bd6a51d62ca4540eea349f",
+      "download": "https://github.com/nnn46099080-dotcom/market-alert-desktop/releases/download/pc-v1.2.0/TQQQ-1.2.0%2B5-PC-Setup.exe"
+    },
+    {
+      "symbol": "SOXL",
+      "version": "1.2.0",
+      "buildNumber": 5,
+      "installer": "SOXL-1.2.0+5-PC-Setup.exe",
+      "bytes": 121274119,
+      "sha256": "309fc7759685e63e89f248ebfa93b6d6eab7e6f5f1580aa1047badd2b9f9575b",
+      "download": "https://github.com/nnn46099080-dotcom/market-alert-desktop/releases/download/pc-v1.2.0/SOXL-1.2.0%2B5-PC-Setup.exe"
+    },
+    {
+      "symbol": "QQQM",
+      "version": "1.2.0",
+      "buildNumber": 5,
+      "installer": "QQQM-1.2.0+5-PC-Setup.exe",
+      "bytes": 121274007,
+      "sha256": "cdb30b28a6f1ec2aca47381edc54c723b5e2ae3279dc2a411651fb2f9e135155",
+      "download": "https://github.com/nnn46099080-dotcom/market-alert-desktop/releases/download/pc-v1.2.0/QQQM-1.2.0%2B5-PC-Setup.exe"
+    }
+  ]
 }

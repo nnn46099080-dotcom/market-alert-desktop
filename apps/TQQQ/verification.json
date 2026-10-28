@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "symbol": "TQQQ",
+  "window": [
+    440,
+    672
+  ],
+  "compact": [
+    400,
+    700
+  ],
+  "zoom": 0.85,
+  "isolatedApps": [
+    "TQQQ"
+  ],
+  "url": "https://tqqq-cc7e2.web.app/?pc=1",
+  "liveFlutter": true
+}

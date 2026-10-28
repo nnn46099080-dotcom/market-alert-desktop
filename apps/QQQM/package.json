@@ -1,0 +1,56 @@
+{
+  "name": "qqqm-alert-desktop",
+  "version": "1.2.0",
+  "buildNumber": 5,
+  "private": true,
+  "description": "QQQM independent Windows app",
+  "author": "Hyunwoo Consulting",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test test/*.test.cjs",
+    "dist": "electron-builder --win nsis --x64 --publish never",
+    "dist:store": "electron-builder --config store/electron-builder.cjs --win appx --x64 --publish never"
+  },
+  "build": {
+    "appId": "com.hyunwoo.qqqm.desktop",
+    "productName": "QQQM Alert PC",
+    "buildVersion": "1.2.0.5",
+    "directories": {
+      "output": "../../outputs/QQQM"
+    },
+    "files": [
+      "main.cjs",
+      "preload.cjs",
+      "core.cjs",
+      "app-surface.cjs",
+      "renderer/familiar.*",
+      "assets/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/app.ico",
+      "signAndEditExecutable": true
+    },
+    "nsis": {
+      "artifactName": "QQQM-1.2.0+5-PC-Setup.${ext}",
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "QQQM Alert PC",
+      "deleteAppDataOnUninstall": false,
+      "installerLanguages": [
+        "ko_KR",
+        "en_US"
+      ]
+    },
+    "npmRebuild": false,
+    "electronVersion": "45.0.0"
+  },
+  "devDependencies": {
+    "electron": "45.0.0",
+    "electron-builder": "26.18.0"
+  }
+}
